@@ -1,0 +1,37 @@
+PODS:
+  - OpenSSL-Apple (1.1.0j.2)
+  - Passepartout (0.0.1):
+    - TunnelKit (~> 1.3.1)
+  - SwiftyBeaver (1.7.0)
+  - TunnelKit (1.3.1):
+    - TunnelKit/AppExtension (= 1.3.1)
+    - TunnelKit/Core (= 1.3.1)
+  - TunnelKit/AppExtension (1.3.1):
+    - SwiftyBeaver
+    - TunnelKit/Core
+  - TunnelKit/Core (1.3.1):
+    - OpenSSL-Apple (~> 1.1.0h)
+    - SwiftyBeaver
+
+DEPENDENCIES:
+  - Passepartout (from `Passepartout`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - OpenSSL-Apple
+    - SwiftyBeaver
+    - TunnelKit
+
+EXTERNAL SOURCES:
+  Passepartout:
+    :path: Passepartout
+
+SPEC CHECKSUMS:
+  OpenSSL-Apple: e88e1eb314acb4a05e2348069790c4aa49f6d319
+  Passepartout: 22ef9325a5a4bddd3bed5487c4be0335c622ad5a
+  SwiftyBeaver: 4cc0080d2e23f980652e28978db11a5c9da39165
+  TunnelKit: f98fb7d88642eda94c42007dbc501903c469a891
+
+PODFILE CHECKSUM: 2722a36c829eef4a75e89117243f72d13e90234b
+
+COCOAPODS: 1.6.1

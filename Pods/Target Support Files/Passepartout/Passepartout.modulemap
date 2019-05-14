@@ -1,0 +1,6 @@
+framework module Passepartout {
+  umbrella header "Passepartout-umbrella.h"
+
+  export *
+  module * { export * }
+}
